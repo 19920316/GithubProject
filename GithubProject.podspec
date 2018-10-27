@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GithubProject"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "A short description of GithubProject."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                  "简单描述"
                    DESC
 
-  s.homepage     = "https://github.com/19920316/GithubProject.git"
+  s.homepage     = "https://github.com/19920316/GithubProject"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/19920316/GithubProject.git", :tag => "{s.version.to_s}" }
+  s.source       = { :git => "https://github.com/19920316/GithubProject.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
