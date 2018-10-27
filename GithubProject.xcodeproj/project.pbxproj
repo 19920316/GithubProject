@@ -15,6 +15,7 @@
 		67A68D8621843BD9001FDF93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A68D8521843BD9001FDF93 /* main.m */; };
 		67A68D9021843BD9001FDF93 /* GithubProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A68D8F21843BD9001FDF93 /* GithubProjectTests.m */; };
 		67A68D9B21843BDA001FDF93 /* GithubProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A68D9A21843BDA001FDF93 /* GithubProjectUITests.m */; };
+		67A68DAA21846AC8001FDF93 /* CustomManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A68DA921846AC8001FDF93 /* CustomManager.m */; };
 		7B1E8F2DAA5D61719FFBEA9D /* libPods-GithubProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18689FDE4CBC3AC6641409D4 /* libPods-GithubProject.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		67A68D9621843BDA001FDF93 /* GithubProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A68D9A21843BDA001FDF93 /* GithubProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubProjectUITests.m; sourceTree = "<group>"; };
 		67A68D9C21843BDA001FDF93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A68DA821846AC8001FDF93 /* CustomManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomManager.h; sourceTree = "<group>"; };
+		67A68DA921846AC8001FDF93 /* CustomManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomManager.m; sourceTree = "<group>"; };
 		7E0C13C735E9846E1E9038A3 /* Pods-GithubProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GithubProject/Pods-GithubProject.debug.xcconfig"; sourceTree = "<group>"; };
 		CC7F38A5EB0A95F48306F828 /* Pods-GithubProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-GithubProject/Pods-GithubProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +115,8 @@
 				67A68D7721843BD8001FDF93 /* AppDelegate.m */,
 				67A68D7921843BD8001FDF93 /* ViewController.h */,
 				67A68D7A21843BD8001FDF93 /* ViewController.m */,
+				67A68DA821846AC8001FDF93 /* CustomManager.h */,
+				67A68DA921846AC8001FDF93 /* CustomManager.m */,
 				67A68D7C21843BD9001FDF93 /* Main.storyboard */,
 				67A68D7F21843BD9001FDF93 /* Assets.xcassets */,
 				67A68D8121843BD9001FDF93 /* LaunchScreen.storyboard */,
@@ -308,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A68DAA21846AC8001FDF93 /* CustomManager.m in Sources */,
 				67A68D7B21843BD9001FDF93 /* ViewController.m in Sources */,
 				67A68D8621843BD9001FDF93 /* main.m in Sources */,
 				67A68D7821843BD8001FDF93 /* AppDelegate.m in Sources */,
